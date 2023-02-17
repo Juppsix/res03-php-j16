@@ -64,11 +64,13 @@ h1 {
   padding-top: 3vh;
   font-size: 6rem;
   text-align: center;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 4rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .section2 {
@@ -81,6 +83,7 @@ h2 {
   text-align: center;
   padding-top: 15vh;
   align-items: center;
+  font-weight: bold;
 }
 
 .section2 p {
@@ -88,6 +91,20 @@ h2 {
   color: white;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.section3 {
+  height: 100vh;
+  background-color: white;
+}
+.section3 h3 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2vh;
+  font-weight: bold;
+}
+.section3 article {
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=style.css.map */
