@@ -30,7 +30,7 @@ body header nav {
   height: 15vh;
   display: grid;
   grid-template-columns: 0.4fr 1fr 0.4fr;
-  background-color: #086DB0;
+  background-color: darkblue;
 }
 body header nav img {
   width: 40%;
@@ -51,6 +51,43 @@ body header nav ul li a {
   color: white;
   font-size: 1rem;
   font-weight: bold;
+}
+
+body main .section1 {
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fle-clavier-d-ordinateur-portable-avec-vide-introduisent-la-cl%25C3%25A9-illustration-109124260.jpg&f=1&nofb=1&ipt=155e4606c3261952d97828ca1129993b68064676eed589b9786800772b18d966&ipo=images");
+}
+
+h1 {
+  padding-top: 3vh;
+  font-size: 6rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.section2 {
+  height: 80vh;
+  background-color: darkblue;
+}
+.section2 h3 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 15vh;
+  align-items: center;
+}
+
+.section2 p {
+  padding-top: 10vh;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
