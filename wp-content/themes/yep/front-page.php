@@ -1,5 +1,6 @@
 <?php  
     $menuItems = getNavigationMenu();  
+    $data = getHomepageData(); 
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -21,10 +22,15 @@
     <nav> 
     <img src="https://www.pngmart.com/files/5/WWE-Logo-Transparent-Background.png" alt="Logo HubSpot"/>
 <ul>
-<li><a href="https://example.com">ACCUEIL</a></li>
-<li><a href="https://example.com">A PROPOS</a></li>
-<li><a href="https://example.com">MES PROJETS</a></li>
-<li><a href="https://example.com">ME CONTACTER</a></li>
+<?php foreach($menuItems as $item) { ?>  
+    <li>  
+        <a href="<?= $item->url ?>">  
+            <?= $item->title ?>  
+        </a>  
+    </li>  
+<?php  
+}  
+?>
 </ul>
 </nav>
 </header>
@@ -49,34 +55,12 @@
 
 
 <ul>
-<article> 
-<h4>Publication Santé</h4>
-<p>Pharmacie de Maurepas</p>
-</article>
-
-<article>
-<h4>SITE E-COMMECER</h4>
-<p>Librairie l'écume des jours</p>
-</article>
-
-<article>
-
-<h4>SITE VITRINE</h4>
-<p>Boulangerie Gattier</p>
-
-</article>
-
-<article>
-
-<h4>SITE INSTITUTIONNEL</h4>
-<p>Mairie de Ploutruc</p>
-</article>
-
-<article>
-
-<h4>SITE PROMOTIONNEL</h4>
-<p>Festival des choses</p>
-</article>
+<section id="about">  
+    <h2><?= $data["a-propos"]["titre"] ?></h2>  
+    <p>  
+        <?= $data["a-propos"]["contenu"] ?>  
+    </p>  
+</section>
 </section>
 </ul>
 <section class="section4">
