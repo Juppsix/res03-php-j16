@@ -126,6 +126,7 @@ h2 {
 .section3 article p {
   color: darkorchid;
   padding-left: 0.5rem;
+  font-weight: bold;
 }
 
 .section3 ul {
@@ -160,6 +161,7 @@ h2 {
 }
 .section4 form fieldset {
   text-align: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

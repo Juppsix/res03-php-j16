@@ -1,3 +1,6 @@
+<?php  
+    $menuItems = getNavigationMenu();  
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>

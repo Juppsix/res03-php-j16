@@ -9,6 +9,13 @@ function register_my_menus()
 add_action( 'init', 'register_my_menus' );
 
 
+function getNavigationMenu() {  
+    $items = wp_get_nav_menu_items('Navigation');  
+  
+    return $items;  
+}
+
+
 
 
 
