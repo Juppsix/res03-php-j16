@@ -44,39 +44,39 @@
 <section class="section3">
 <h3>MES DERNIERS PROJETS</h3>
 
+
+<ul>
 <article> 
-    <img src="https://picsum.photos/seed/picsum/200/300">
 <h4>Publication Santé</h4>
 <p>Pharmacie de Maurepas</p>
 </article>
 
 <article>
-<img src="https://picsum.photos/seed/picsum/200/300">
 <h4>SITE E-COMMECER</h4>
 <p>Librairie l'écume des jours</p>
 </article>
 
 <article>
-<img src="https://picsum.photos/seed/picsum/200/300">
+
 <h4>SITE VITRINE</h4>
 <p>Boulangerie Gattier</p>
 
 </article>
 
 <article>
-<img src="https://picsum.photos/seed/picsum/200/300">
+
 <h4>SITE INSTITUTIONNEL</h4>
 <p>Mairie de Ploutruc</p>
 </article>
 
 <article>
-<img src="https://picsum.photos/seed/picsum/200/300">
+
 <h4>SITE PROMOTIONNEL</h4>
 <p>Festival des choses</p>
 </article>
 </section>
-
-<section>
+</ul>
+<section class="section4">
 <h3>ME CONTACTER</h3>
 
 <form>
@@ -99,7 +99,7 @@
 
 <label for="Message">Message</label>
 <input type="text" id="name" name="name" required
-       minlength="4" maxlength="8" size="10">
+       minlength="4" maxlength="8" size="60">
 
 </fieldset>
 

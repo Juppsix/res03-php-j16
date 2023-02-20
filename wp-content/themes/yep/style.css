@@ -57,7 +57,8 @@ body main .section1 {
   height: 100vh;
   color: white;
   background-size: cover;
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fle-clavier-d-ordinateur-portable-avec-vide-introduisent-la-cl%25C3%25A9-illustration-109124260.jpg&f=1&nofb=1&ipt=155e4606c3261952d97828ca1129993b68064676eed589b9786800772b18d966&ipo=images");
+  background-position: bottom;
+  background-image: url("https://media.discordapp.net/attachments/1039179242346401912/1076103299574538272/home-computer.jpeg?width=649&height=422");
 }
 
 h1 {
@@ -94,17 +95,71 @@ h2 {
 }
 
 .section3 {
-  height: 100vh;
+  height: 120vh;
   background-color: white;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 0.4fr;
+  grid-template-rows: 0.2fr 1fr;
 }
 .section3 h3 {
   font-size: 2rem;
   text-align: center;
-  padding-top: 2vh;
+  padding-top: 2rem;
   font-weight: bold;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin-left: 2rem;
 }
 .section3 article {
-  border: 1px solid red;
+  background-image: url("https://picsum.photos/536/354");
+  background-size: cover;
+  width: 22vw;
+  height: 40vh;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section3 article h4 {
+  font-weight: bold;
+  padding-top: 12rem;
+  padding-left: 0.5rem;
+}
+.section3 article p {
+  color: darkorchid;
+  padding-left: 0.5rem;
+}
+
+.section3 ul {
+  display: grid;
+  grid-column: 2/3;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 1rem;
+  height: 40vh;
+  grid-row: 2/2;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin-left: 4rem;
+}
+.section3 ul article img {
+  height: 20vh;
+  width: 20vw;
+}
+
+.section4 {
+  height: 40vh;
+}
+.section4 h3 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+.section4 form {
+  text-align: center;
+  padding-top: 2rem;
+}
+.section4 form fieldset {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
